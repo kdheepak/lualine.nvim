@@ -75,7 +75,7 @@ local function option_deprecatation_notice(component)
   local types = {
     case = function()
       local kind = component.upper ~= nil and 'upper' or 'lower'
-      notice.add_notice(string.format(
+      modules.notice.add_notice(string.format(
         [[
 ### option.%s
 
@@ -102,7 +102,7 @@ You'll have to change it to this to retain old behavior:
     end,
     padding = function()
       local kind = component.left_padding ~= nil and 'left_padding' or 'right_padding'
-      notice.add_notice(string.format(
+      modules.notice.add_notice(string.format(
         [[
 ### option.%s
 
