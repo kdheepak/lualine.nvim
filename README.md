@@ -78,6 +78,7 @@ Each sections holds it's components e.g. current vim's mode.
 
 <details><summary>Default config</summary>
 
+
 ```lua
 require'lualine'.setup {
   options = {
