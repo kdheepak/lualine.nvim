@@ -43,7 +43,7 @@ jobs:
       - name: Generating docs
         run: |
           git checkout -b ${VIMDOC_BRANCH}
-          build/md2vim/md2vim -pascal README.md lualine.txt
+          build/md2vim/md2vim -pascal README.md doc/lualine.txt
       - name: Create PR
         run: |
           if ! [[ -z $(git status -s) ]]; then
