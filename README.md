@@ -19,6 +19,8 @@ If you have some question or need help with configuration start a [discussion](h
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a pr.
 You can also help with documentation in [wiki](https://github.com/shadmansaleh/lualine.nvim/wiki)
 
+<!-- panvimdoc-ignore-start -->
+
 ## Screenshots
 
 Here is a preview of how lualine can look like.
@@ -42,6 +44,8 @@ For those who want to break the norms. You can create custom looks in lualine.
 
 - [bubbles](examples/bubbles.lua)
 <img width='700' src='https://user-images.githubusercontent.com/20235646/131350468-fc556196-5f46-4bfe-a72e-960f6a58db2c.png'/>
+
+<!-- panvimdoc-ignore-end -->
 
 ## Performance compared to other plugins
 
