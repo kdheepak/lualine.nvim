@@ -342,7 +342,7 @@ sections = {
 <details>
 <summary><b>Component specific local options</b></summary>
 
-#### `diagnostics` component options
+#### diagnostics component options
 
 ```lua
 sections = {
@@ -368,7 +368,7 @@ sections = {
 }
 ```
 
-#### `filename` component options
+#### filename component options
 
 ```lua
 sections = {
@@ -384,7 +384,7 @@ sections = {
 }
 ```
 
-#### `filetype` component options
+#### filetype component options
 
 ```lua
 sections = {
@@ -398,7 +398,7 @@ sections = {
 }
 ```
 
-#### `diff` component options
+#### diff component options
 
 ```lua
 sections = {
